@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from '../constants';
+import profilePic from '../assets/OIP-removebg-preview.png';
 import { motion } from 'framer-motion';
 import WordAnimator from './WordAnimator';
-import ComputersCanvas from './Computers';
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -35,7 +35,13 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <ComputersCanvas />
+            <motion.img
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 1.2 }}
+              src={profilePic}
+              alt="Satvik Pathak"
+            />
           </div>
         </div>
       </div>
