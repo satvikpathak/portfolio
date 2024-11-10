@@ -18,7 +18,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-bold tracking-tight lg:text-8xl lg:mt-4"
+              className="pb-16 text-4xl font-bold tracking-tight lg:text-7xl lg:mt-4"
             >
               Satvik Pathak
             </motion.h1>
@@ -41,7 +41,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
               alt="Satvik Pathak"
-              className="lg:mt-[-15px] lg:mt-[-60px] lg:ml-[150px]"
+              className="lg:mt-[-60px] lg:ml-[150px]"
             />
           </div>
         </div>

@@ -13,7 +13,7 @@ function Navbar() {
 
         {/* <img className='mx-2 w-10 h-auto' src={logo} alt="logo" /> */}
     </div>
-    <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+    <div className='m-8 mr-0 flex items-center justify-center gap-4 text-2xl'>
     <a href="https://www.linkedin.com/in/satvik-pathak-601833331/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
