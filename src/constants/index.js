@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/hc.jpg";
+import project1 from "../assets/projects/Hackc.jpg";
 import project2 from "../assets/projects/Cart.jpg";
 import project3 from "../assets/projects/Hangman.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am an undergrad cse student with a strong passion for building efficient and scalable web applications. Having learnt front-end technologies like React, HTML, CSS, and JavaScript, along with backend technologies such as Node.js, MongoDB I focus on creating robust solutions that deliver seamless user experiences. Currently, I’m honing my skills in the MERN stack and DSA, aiming to master full stack development and make meaningful contributions to impactful projects. My goal is to continuously evolve my skills and craft innovative applications that solve real-world problems.`;
 
