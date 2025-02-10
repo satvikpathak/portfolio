@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/Hc.jpg";
+import project2 from "../assets/projects/Cart.jpg";
+import project3 from "../assets/projects/Hangman.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am an undergrad cse student with a strong passion for building efficient and scalable web applications. Having learnt front-end technologies like React, HTML, CSS, and JavaScript, along with backend technologies such as Node.js, MongoDB I focus on creating robust solutions that deliver seamless user experiences. Currently, I’m honing my skills in the MERN stack and DSA, aiming to master full stack development and make meaningful contributions to impactful projects. My goal is to continuously evolve my skills and craft innovative applications that solve real-world problems.`;
@@ -41,11 +41,28 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Hackathon Club Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functioning talent sharing and hackathon loacting website at your disposal",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Tailwind css"],
+    link: "https://github.com/satvikpathak/Hackathon-Club-Website"
+  },
+  {
+    title: "Shopping Cart",
+    image: project2,
+    description:
+      "Basic ecommerce website layout using typescript",
+    technologies: ["Typescript", "React", "Node.js", "MongoDB", "Tailwind css"],
+    link: "https://shopping-cart-six-dusky.vercel.app/"
+  },
+  {
+    title: "Hangman",
+    image: project3,
+    description:
+      "Hangman word guessing game using typescript",
+    technologies: ["Typescript", "React", "Node.js", "MongoDB", "Tailwind css"],
+    link: "https://hangman-cyan-mu.vercel.app/"
   },
 ];
 

@@ -1,4 +1,3 @@
-import aboutIMG from '../assets/about.jpg'
 import { ABOUT_TEXT } from '../constants';
 import {motion} from 'framer-motion'
 
@@ -14,7 +13,7 @@ const About = () => {
         transition={{duration:0.5}}
         className='w-full lg:w-1/2 lg:p-8'>
         <div className='flex items-center justify-center'>
-            <img className='rounded-2xl' src="https://pbs.twimg.com/media/GbywFova0AARn9z?format=png&name=360x360" alt="About" />
+            <img className='rounded-2xl w-1/2 sm:w-1/3' src="\Mine.jpg" alt="Satvik"/>
         </div>
         </motion.div>
         <motion.div 
