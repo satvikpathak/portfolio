@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/Hackc.jpg";
 import project2 from "../assets/projects/Shop.jpg";
 import project3 from "../assets/projects/Hang.jpg";
+import project4 from "../assets/projects/entre.jpg";
 
 export const HERO_CONTENT = `I am an undergrad cse student with a strong passion for building efficient and scalable web applications. Having learnt front-end technologies like React, HTML, CSS, and JavaScript, along with backend technologies such as Node.js, MongoDB I focus on creating robust solutions that deliver seamless user experiences. Currently, I’m honing my skills in the MERN stack and DSA, aiming to master full stack development and make meaningful contributions to impactful projects. My goal is to continuously evolve my skills and craft innovative applications that solve real-world problems.`;
 
@@ -40,12 +41,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "EntreConnect",
+    image: project4,
+    description:
+      "EntreConnect: Empowering young startup founders with mentorship, industry connections, and AI-driven growth.",
+    technologies: ["Next.js", "Prisma", "Postgres", "Tailwind css"],
+    link: "https://github.com/satvikpathak/pec-hackathon/tree/main"
+  },
+  {
     title: "Hackathon Club Website",
     image: project1,
     description:
       "A fully functioning talent sharing and hackathon loacting website at your disposal",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Tailwind css"],
-    link: "https://github.com/satvikpathak/Hackathon-Club-Website"
+    link: "https://hc-frontend-five.vercel.app/"
   },
   {
     title: "Shopping Cart",
